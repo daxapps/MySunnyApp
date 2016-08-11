@@ -13,6 +13,8 @@
 		E00E05EC1D5BB40F00B8B521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00E05EA1D5BB40F00B8B521 /* Main.storyboard */; };
 		E00E05EE1D5BB40F00B8B521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00E05ED1D5BB40F00B8B521 /* Assets.xcassets */; };
 		E00E05F11D5BB41000B8B521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00E05EF1D5BB40F00B8B521 /* LaunchScreen.storyboard */; };
+		E0F38C671D5C8E8A0058E775 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F38C661D5C8E8A0058E775 /* Constants.swift */; };
+		E0F38C691D5C91CE0058E775 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F38C681D5C91CE0058E775 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		E00E05ED1D5BB40F00B8B521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E00E05F01D5BB40F00B8B521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E00E05F21D5BB41000B8B521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F38C661D5C8E8A0058E775 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0F38C681D5C91CE0058E775 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		F347CDED264D86E8AFB5FE46 /* Pods-MySunnyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySunnyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySunnyApp/Pods-MySunnyApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +80,8 @@
 				E00E05ED1D5BB40F00B8B521 /* Assets.xcassets */,
 				E00E05EF1D5BB40F00B8B521 /* LaunchScreen.storyboard */,
 				E00E05F21D5BB41000B8B521 /* Info.plist */,
+				E0F38C661D5C8E8A0058E775 /* Constants.swift */,
+				E0F38C681D5C91CE0058E775 /* CurrentWeather.swift */,
 			);
 			path = MySunnyApp;
 			sourceTree = "<group>";
@@ -215,6 +221,8 @@
 			files = (
 				E00E05E91D5BB40F00B8B521 /* WeatherVC.swift in Sources */,
 				E00E05E71D5BB40F00B8B521 /* AppDelegate.swift in Sources */,
+				E0F38C691D5C91CE0058E775 /* CurrentWeather.swift in Sources */,
+				E0F38C671D5C8E8A0058E775 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
